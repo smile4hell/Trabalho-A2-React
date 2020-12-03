@@ -39,10 +39,10 @@ export default function MediaCard() {
         </CardContent>
       </CardActionArea>
       <CardActions style={{justifyContent: 'center'}}>
-        <Button className="float-center" color='primary'>
+        <Button className="float-center" color='primary' href="https://www.youtube.com/watch?v=ZZ5LpwO-An4"target="_blank">>
           Compartilhar
         </Button>
-        <Button size="small" color='secondary'>
+        <Button size="small" color='secondary' href="https://www.youtube.com/watch?v=9Z-bYF3pfOw"target="_blank">>
           Saiba Mais
         </Button>
       </CardActions>

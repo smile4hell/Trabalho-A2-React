@@ -159,12 +159,12 @@ export default function Login() {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href="#" variant="body2">
+              <Link href="https://www.youtube.com/watch?v=zhi2dTiYmS0"target="_blank"  variant="body2">
                 Esqueceu a senha?
               </Link>
             </Grid>
             <Grid item>
-              <Link href="#" variant="body2">
+              <Link href="https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp"target="_blank" variant="body2">
                 {"Crie sua conta."}
               </Link>
             </Grid>

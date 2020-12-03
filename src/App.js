@@ -1,12 +1,10 @@
 import React from "react";
-import { createMuiTheme, responsiveFontSizes, MuiThemeProvider }
-  from '@material-ui/core'
-/* cores */
+import { createMuiTheme, responsiveFontSizes, MuiThemeProvider } from '@material-ui/core'
 import {
-  orange,
   lightBlue,
-  blue,
-  deepOrange
+  indigo,
+  yellow,
+  teal
 } from "@material-ui/core/colors";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Rotas from './rotas'
@@ -15,12 +13,11 @@ import Rotas from './rotas'
 
 function App() {
 
-  const temaDark = true
+  const temaDark = false
   const tipoPaleta = temaDark ? 'dark' : 'light'
-  const corPrimaria = temaDark ? orange[500] : blue[500]
-  const corSecundaria = temaDark ? deepOrange[900] : lightBlue[500]
+  const corPrimaria = temaDark ? indigo[500] : lightBlue[500]
+  const corSecundaria = temaDark ? yellow[900] : teal[500]
 
-  //consulte as paletas de cores em https://www.materialpalette.com
   let theme = createMuiTheme(
     {
       palette: {
